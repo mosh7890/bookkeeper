@@ -7,21 +7,26 @@
 </head>
 
 <body>
-    <form>
-        <div style="display:inline; width:15%; float:left;">Username:</div>
-        <div style="display:inline; width:85%; float:left;"><input type="text" placeholder="john"> </div>
-        <div style="display:inline; width:15%; float:left;">Email:</div>
-        <div style="display:inline; width:85%; float:left;"><input type="email" placeholder="john@xyz.com"></div>
-        <div style="display:inline; width:15%; float:left;">Password:</div>
-        <div style="display:inline; width:85%; float:left;"><input type="password"></div>
-        <div style="display:inline; width:15%; float:left;">Confirm Password:</div>
-        <div style="display:inline; width:85%; float:left;"><input type="password"></div>
-        <div style="display:inline; width:15%; float:left;">Phone #:</div>
-        <div style="display:inline; width:85%; float:left;"><input type="number"></div>
-        <div style="display:inline; width:15%; float:left;">Country:</div>
-        <div style="display:inline; width:85%; float:left;"><input type="text"></div>
-        <button type="button">Sign-Up</button>
+    <form id="form1">
+        Username:
+        <input id="username" type="text" placeholder="Your Name">
+        <br> Email:
+        <input id="email" type="e-mail" placeholder="yourname@email.com">
+        <br> Password:
+        <input id="password" type="password">
+        <br> Repeat password:
+        <input id="repeatpw" type="password">
+        <br> Phone Number:
+        <input id="phonenum" type="number">
+        <br> Country:
+        <input id="country" type="text">
+        <br>
+        <button id="button1" type="button">Submit</button>
     </form>
+
+    <div id="formcheck"></div>
+    <div id="results"></div>
+
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
     <script src="main.js"></script>
 </body>
